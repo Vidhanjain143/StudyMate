@@ -1,0 +1,86 @@
+/* StudyInformation.css */
+
+#study-information {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: skyblue;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 30px;
+    animation: fadeIn 0.5s;
+}
+
+#study-information h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#study-information .input-container {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#study-information label {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+#study-information input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#study-information p {
+    font-size: 14px;
+    color: #555;
+    margin-top: 5px;
+}
+
+#study-information button {
+    background-color: #1EB2A6;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 24px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#study-information button:hover {
+    background-color: #1EB2A6;
+}
+
+/* Loading Spinner Styles */
+#study-information .loading-spinner {
+    border: 4px solid rgba(255, 255, 255, 0.3);
+    border-top: 4px solid #1EB2A6;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    animation: spin 1s linear infinite;
+    margin-top: 20px;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Result Message Styles */
+#study-information .result-message {
+    font-size: 20px;
+    color: #1EB2A6;
+    margin-top: 20px;
+    font-weight: bold;
+}

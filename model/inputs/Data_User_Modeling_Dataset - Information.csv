@@ -1,0 +1,13 @@
+Data Set Characteristics: Multivariate,,Attribute Information:
+Number of Instances: 403,,"STG (The degree of study time for goal object materails),"
+Area: Education,,SCG (The degree of repetition number of user for goal object materails)
+Attribute Characteristics: Real,,STR (The degree of study time of user for related objects with goal object)
+Number of Attributes: 5,,LPR (The exam performance of user for related objects with goal object)
+Associated Tasks: Classification,,PEG (The exam performance of user for goal objects)
+,,UNS (The knowledge level of user)
+Class Distribution,,
+Very Low: 50,,
+Low:129,,
+Middle: 122,,
+high 130,,
+Total:403,,

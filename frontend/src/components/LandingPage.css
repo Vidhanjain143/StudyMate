@@ -1,0 +1,70 @@
+/* LandingPage.css */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+  }
+  
+  .landing-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #007bff;
+  }
+  
+  p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+  }
+  
+  .feature {
+    display: flex;
+    align-items: stretch; /* Align items vertically */
+    justify-content: space-between;
+    margin-bottom: 40px;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .feature:hover {
+    transform: scale(1.02);
+  }
+  
+  .feature-info {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  h2 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .img {
+    width: 100%; /* Make the image take the full width of its container */
+    height: 100%; /* Make the image take the full height of its container */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .img:hover {
+    transform: scale(1.05);
+  }
+  

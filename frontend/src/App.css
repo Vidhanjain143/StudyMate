@@ -1,0 +1,106 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+h1 {
+  color: #333;
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.subject-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px;
+}
+
+.subject-list button {
+  background-color: #1EB2A6;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.subject-list button:hover {
+  background-color: #1EB2A6;
+  cursor: pointer;
+}
+
+.note-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+h2 {
+  font-size: 20px;
+  color: #333;
+  margin: 10px 0;
+}
+
+.note-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.note-card {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  max-width: 300px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 10px;
+}
+
+.note-card img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.note-card h3 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.note-card p {
+  font-size: 14px;
+  color: #555;
+  margin: 0;
+}
+
+.take-test {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.take-test h2 {
+  font-size: 20px;
+  color: #333;
+  margin: 10px 0;
+}
+
+.take-test button {
+  background-color: #1EB2A6;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.take-test button:hover {
+  background-color:#1EB2A6;
+  cursor: pointer;
+}

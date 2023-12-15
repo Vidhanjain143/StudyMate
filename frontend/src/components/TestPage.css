@@ -1,0 +1,80 @@
+/* TestPage.css */
+.test-page {
+    background-color: azure;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  .divider {
+    border: none;
+    border-top: 2px solid #007BFF;
+    margin: 20px 0;
+  }
+  
+  .question-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .question {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 0;
+    text-align: left;
+    transition: transform 0.2s;
+  }
+  
+  .question:hover {
+    transform: scale(1.02);
+  }
+  
+  .choices {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .choices li {
+    margin: 5px 0;
+  }
+  
+  label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  input[type="radio"] {
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .submit-button {
+    background-color: #1EB2A6;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-button:hover {
+    background-color: #1EB2A6;
+  }
+  
+  .score {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  
